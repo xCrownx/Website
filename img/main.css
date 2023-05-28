@@ -1,0 +1,269 @@
+/* CSS Document */
+
+a:link, a:visited {
+	color: #a4d226;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+body {
+	width: 1066px;
+	background: #111111;
+	margin: 0 auto;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #fff;
+}
+
+img {
+	border: none;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none outside;
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+	margin: 0;
+	margin: 10px 0px 10px;
+}
+
+h2 {
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+	margin: 0;
+	margin: 10px 0px 10px;
+}
+
+h3 {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	margin: 0;
+	margin: 10px 0px 10px;
+}
+
+input, select, textarea {
+	font-size: 12px;
+	font-family: Verdana;
+	color: #333;
+	border: none;
+}
+
+input[type=text], input[type=password] {
+	width: 131px;
+	height: 25px;
+	background: url('../img/textbox.png') repeat-x;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+input[type=text]#txtsmall {
+	width: 29px;
+	height: 25px;
+	background: url('../img/textbox_small.png') repeat-x;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+input[type=text]#txtbig {
+	width: 330px;
+	height: 25px;
+	background: url('../img/textbox_big.png') repeat-x;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+input[type=button], input[type=submit] {
+	background: url('../img/buttonbg.png') repeat-x;
+	color: #fff;
+	height: 24px;
+	padding-bottom: 3px;
+	cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+	background-image: url('../img/buttonbg_hover.png');
+}
+
+input[type=button]#nostyle, input[type=submit]#nostyle {
+	background: none;
+	color: #1b76e6;
+	height: auto;
+	cursor: pointer;
+	padding: 0px;
+}
+
+input[type=button]#nostyle:hover, input[type=submit]#nostyle:hover {
+	background: none;
+	text-decoration: underline;
+}
+
+select {
+	width: 141px;
+	height: 25px;
+	background: url('../img/textbox.png') repeat-x;
+	padding: 4px 5px 4px 5px;
+}
+
+select option {
+	background: #ccc;
+}
+
+textarea {
+	width: 340px;
+	height: 140px;
+	background: url('../img/textarea.png') no-repeat;
+	padding: 5px;
+}
+
+table td#key {
+	font-weight: bold;
+}
+
+table td#value {
+	font-weight: normal;
+}
+
+div.success {
+	width: 93%;
+	color: #3C0;
+	margin-bottom: 10px;
+	padding: 8px;
+	padding-left: 30px;
+	background: #DFD url('../img/success.png') left center no-repeat;
+}
+
+div.fail {
+	width: 93%;
+	color: #C30;
+	margin-bottom: 10px;
+	padding: 8px;
+	padding-left: 30px;
+	background: #FDD url('../img/fail.png') left center no-repeat;
+}
+
+.navigation {
+	background: url("../img/LostCrusade.png") -107px -381px no-repeat;
+	width: 1066px;
+	height: 78px;
+	margin-top: -20px;
+	font-size: 14px;
+	line-height: 57px;
+	text-transform: uppercase;
+}
+/**/
+.head {
+	width: 1066px;
+	height: 401px;
+
+}
+.head a {
+	background:url("../img/LostCrusade.png") -107px 0px no-repeat; 
+	width: 1066px;
+	height: 401px;
+	display:block;
+
+}
+/**/
+.navigation ul {
+	padding-left: 40px;
+}
+
+.navigation ul li {
+	float: left;
+	margin-top: 21px;
+}
+
+.navigation ul li a {
+	color: #fff;
+	display: block;
+	padding-left: 27px;
+	padding-right: 27px;
+	text-shadow: 1px 1px 2px #486300;
+}
+
+.navigation ul li a:hover {
+	text-decoration: none;
+	background: url('../img/navigation_hover.png') repeat-x;
+}
+
+.content {
+	width: 946px;
+	background: url('../img/content_bg.png') repeat-y;
+	padding: 30px 60px 20px 60px;
+}
+
+.content .main {
+	float: left;
+	width: 635px;
+}
+
+.content .main h1 {
+	width: 610px;
+	height: 42px;
+	background: url('../img/LostCrusade.png') -167px -492px no-repeat;
+	font-size: 14px;
+	line-height: 47px;
+	padding-left: 25px;
+	color: #fff;
+}
+
+.content .main .site {
+	width: 585px;
+	min-height: 223px;
+	background: url('../img/LostCrusade.png') -167px -535px no-repeat;
+	padding: 20px 25px 20px 25px;
+	margin-top: -10px;
+}
+
+.content .panels {
+	float: right;
+	width: 263px;
+}
+
+.content .panels h1 {
+	width: 263px;
+	height: 42px;
+	background: url('../img/LostCrusade.png') -167px -492px no-repeat;
+	font-size: 14px;
+	line-height: 47px;
+	text-align: center;
+	color: #fff;
+}
+
+.content .panels .panel {
+	width: 213px;
+	min-height: 89px;
+	background: url('../img/panel_content.png') repeat-x;
+	padding: 20px 25px 20px 25px;
+	margin-top: -10px;
+}
+
+.copyright {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 11px;
+}
+
+.copyright a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.copyright a:hover {
+	text-decoration: none;
+}

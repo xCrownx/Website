@@ -1,0 +1,175 @@
+/* CSS Document */
+#online {
+	color: Green;
+}
+
+#offline {
+	color: Red;
+}
+
+/* STAFF MEMBER */
+.slideshow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.slide {
+	flex: 0 0 calc(33.33% - 2vw);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2vw;
+	box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.2);
+	padding: 1vw;
+}
+
+.slide-image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1vw;
+}
+
+.slide-name {
+	margin-top: 1vw;
+	text-align: center;
+}
+
+.additional-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.additional-slide {
+	flex: 0 0 calc(33.33% - 2vw);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2vw;
+	box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.2);
+	padding: 1vw;
+}
+
+.additional-slide-image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1vw;
+}
+
+.additional-slide-name {
+	margin-top: 1vw;
+	text-align: center;
+}
+
+/* DOWNLOADS */
+a.download {
+	width: 5.8vw;
+	height: 3.5vw;
+	display: block;
+	background: url('../img/download.png');
+}
+
+a.download:hover {
+	background: url('../img/download.png') 0 -3.5vw;
+}
+
+/* SHOP */
+.shop_itmdetail {
+	width: 100%;
+}
+
+.shop_itmdetail .head {
+	height: 2.1vw;
+	color: #fff;
+	font-size: 1.1vw;
+	text-align: center;
+	border: 0.1vw solid #fff;
+	line-height: 2.1vw;
+	/*Shop Head Verlauf*/
+	background: #9e0b00;
+	background: -moz-linear-gradient(top, #9e0b00 0%, #9e0b00 50%, #9e0b00 50%, #9e0b00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9e0b00), color-stop(50%, #9e0b00), color-stop(50%, #9e0b00), color-stop(100%, #9e0b00));
+	background: -webkit-linear-gradient(top, #9e0b00 0%, #9e0b00 50%, #9e0b00 50%, #9e0b00 100%);
+	background: -o-linear-gradient(top, #9e0b00 0%, #9e0b00 50%, #9e0b00 50%, #9e0b00 100%);
+	background: -ms-linear-gradient(top, #9e0b00 0%, #9e0b00 50%, #9e0b00 50%, #9e0b00 100%);
+	background: linear-gradient(top, #9e0b00 0%, #9e0b00 50%, #9e0b00 50%, #9e0b00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e0b00', endColorstr='#9e0b00', GradientType=0);
+	/*Shop Head Kontur*/
+	border: 0.1vw solid #9e0b00;
+	/*Shop Head Innen Schatten*/
+	-webkit-box-shadow: inset 0 0.04vw 0 0 #9e0b00;
+	-moz-box-shadow: inset 0 0.04vw 0 0 #9e0b00;
+	box-shadow: inset 0 0.04vw 0 0 #9e0b00;
+}
+
+.shop_itmdetail .details {
+	padding: 1.04vw;
+	background: #f8f8f8;
+	border: 0.1vw solid #fff;
+	border-top: none;
+	font-size: 0.83vw;
+	color: #1e2133;
+}
+
+.shop_itmdetail .details #icon {
+	width: 6.67vw;
+	height: 6.67vw;
+	float: left;
+	margin-right: 0.83vw;
+	margin-bottom: 0.83vw;
+}
+
+.shop_itmdetail .details #quickinfo {
+	margin-top: 0.83vw;
+	margin-bottom: 1.67vw;
+}
+
+.shop_list {
+	width: 100%;
+}
+
+.shop_list .item {
+	background: #f8f8f8;
+	padding: 0.83vw;
+	color: #444;
+	float: left;
+	width: 29.17vw;
+}
+
+.shop_list .item:hover {
+	background: #fff;
+	padding: 0.83vw;
+	color: #444;
+}
+
+.shop_list .item #icon {
+	float: left;
+	padding-right: 0.67vw;
+	width: 4.17vw;
+	height: 4.17vw;
+}
+
+.shop_list .item h3 {
+	font-size: 0.72vw;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	background: none;
+	width: 32.78vw;
+}
+
+.shop_list span#page {
+	float: left;
+	margin-right: 0.25vw;
+}
+
+.shop_list span#page a {
+	display: block;
+	padding: 0.33vw;
+}
+
+.shop_list span#page a:hover {
+	background: url('../img/shop_cat.png');
+}
